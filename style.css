@@ -3,7 +3,7 @@ body{
     padding:0;
 }
 header{
-    padding-top: 40px;
+    padding-top: 50px;
     margin:auto
 }
 header img{
@@ -13,11 +13,20 @@ header img{
     margin-left: 150px;
     display: inline;
     cursor: pointer;
+    padding-left: 650px;
+margin-bottom: 50px;    
 }
 .navbar ul li{
     display: inline-block;
     font-size: 20px;
     list-style: none;
-    padding-bottom: 10px    ;
+    padding-bottom: 10px ;
+    color:black;
+    padding-left:25px;
 
+}
+.active , li:hover{
+    border-bottom: 5px solid var(--oneColor);
+    cursor: pointer;
+    
 }
