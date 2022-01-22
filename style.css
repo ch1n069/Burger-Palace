@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mochiy+Pop+P+One&display=swap');
 body{
     margin:0;
     padding:0;
-}
+    background: white;
+    }
 header{
     margin:auto
 }
@@ -30,10 +32,58 @@ header{
     padding-left:25px;
 
 }
-.navbar .active{
+section {
+    position:relative;
+    padding-top: 230px;
+    padding-left: 80px;
+}
+.cards{
+    width: 65%;
+    margin:50px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    font-family: sans-serif;
+    background: white;
+}
+.card{
+    box-shadow:0 0 3px rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+.card_image{
+    width:100%;
+    display: block;
+}
+.card_content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding:15px;
+    text-align: center;
+}
+.card_content h2{
+    margin-top:0;
+    color:#550312;
+    text-transform: uppercase;
+}
+.card_content p{
+    margin-bottom: 0;
+}
+.pricing{
+    padding-left: 10px;
+    color:black;
+    font-weight:700;
+    display: flex;
+}
+.card_info{
+    font-size:0.9em;
+    margin:8px;
+    display: inline;
+    
+}
+/*.card_info .icon{
+    float:right;
+}
+*/
 
 }
-}
-.navbrand{
-    display:flex;   
-}
+  
