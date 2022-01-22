@@ -100,7 +100,7 @@ section{
 }
 
 .cards{
-    padding-top: 110px;
+    padding-top: 100px;
     width: 65%;
     margin:50px auto;
     display: grid;
@@ -143,10 +143,24 @@ section{
     display: inline;
     
 }
-/*.card_info .icon{
-    float:right;
-}
-*/
 
+.section-3{
+    width: 100%;
+    height:750px;
+    background:#f7fdf6;
+    display: flex;
+}
+
+.decker h2{
+align-items: left;
+font-size: 40px;
+padding-top: 230px;
+padding-left: 80px;
+}
+.decker{
+    column-width: 300px;
+}
+.decker p{
+    padding-left: 80px;
 }
   
