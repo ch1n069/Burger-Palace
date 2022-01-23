@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mochiy+Pop+P+One&family=Poppins:wght@100&display=swap');
 body{
     margin:0;
     padding:0;
     background: white;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;;
     overflow-x: hidden;
     }
 /* .one{
@@ -357,4 +357,16 @@ section{
     border-top: 1px solid black;
 
     
+}
+#fot-1{
+    width:40%
+}
+.copy{
+    font-size: 15px;;
+    padding-left: 4%;
+}
+.copy .p{
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
 }
