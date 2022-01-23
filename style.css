@@ -187,4 +187,8 @@ section{
     display: flex;
     gap:54px;
 }
+.stores{
+    display: flex;
+    gap:7px;
+}
   
