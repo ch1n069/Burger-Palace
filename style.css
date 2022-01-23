@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mochiy+Pop+P+One&family=Poppins:wght@100&display=swap');
 body{
     margin:0;
     padding:0;
     background: white;
-    font-family: poppins;
     overflow-x: hidden;
     }
 /* .one{
@@ -14,7 +13,7 @@ body{
 
 .one{
     width: 100%;
-    background: linear-gradient(to right, #fff 0%,#fff 50%, #f6b400 50%,#f6b400 100% );
+    background: linear-gradient(115deg, #fff 0%,#fff 50%, #f6b400 50%,#f6b400 100% );
 
 }
 
@@ -67,6 +66,11 @@ body{
     /* background: green; */
     height:100%;
 }
+.first_text p{
+    font-family: 'poppins', sans-serif;
+    color:#615757
+
+}
 .menu {
     width:15%;
     margin-left: 45%;
@@ -84,17 +88,17 @@ body{
 .btn-order{
     margin-top: 20%;
     margin-left: 5%;
-    padding: 2%;
-    background-color: #f8c740;
-    border: 2px solid #f8c740;
+    padding: 8px 20px;
+    background-color: #fa9529;
+    border: 2px solid #fa9529;
     color: #fff;
-    border-radius: 25% 25% 0 25% ;
+    border-radius: 27px 27px 0 27px ;
 }
 
 .img-burger{
     position: relative;
     bottom: 100%;
-    left:55%;
+    left:45%;
     
     
 }
@@ -107,6 +111,7 @@ body{
 p{
     font-size :20px;
     font-weight:bold;
+    font-family:'poppin';
 
 }
 
@@ -157,6 +162,7 @@ section{
     text-align:center;
     font-weight:normal;
     font-size: 90%;
+    font-family: 'poppins', sans-serif;
 
 
 }
@@ -179,7 +185,7 @@ section{
 }
 .card{
     box-shadow:0 0 3px rgba(0,0,0,0.4);
-    border-radius:5%;
+    border-radius:27px;
     box-shadow: 0 5px 5px 0 grey;
     padding: 5%;
 }
@@ -217,12 +223,12 @@ section{
 .card .card_info p{
     margin-left: 30%;
     border:2px solid white;
-    background-color: aqua;
+    background-color:#e1ebe6;
     padding-left: 10%;
     padding-right: 10%;
     padding-top:5%;
     padding-bottom: 5%;
-    border-radius: 25%;
+    border-radius: 27px;
 }
 .card .card_info h3{
     margin-top: 17%;
@@ -253,7 +259,10 @@ section{
     font-weight: 800;
 }
 #decker p{
-    margin-left: 5%;
+    margin-left: 2%;
+
+    color:#615757
+
 }
 .image_1{
     position:relative;
@@ -278,7 +287,7 @@ section{
     justify-content: center;}
 .app-text{
     margin-top: 30%;
-    font-family: poppins;
+    font-family: 'poppins', sans-serif;
     text-align: justify;
 }
 
@@ -318,6 +327,7 @@ section{
     padding:2%;
     /* padding-right:34px; */
     font-weight: 800;
+    font-family:;
 }
 .navbar-2 ul{
     margin-left: 2%;
@@ -357,4 +367,41 @@ section{
     border-top: 1px solid black;
 
     
+}
+
+
+.copy{
+    font-size: 15px;;
+    padding-left: 4%;
+}
+.copy .p{
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
+}
+.mguu{
+    display: flex;
+    justify-content: center;
+    height: 5%;
+
+}
+#fot-1{
+    position: relative;
+    width:40%;
+    font-family: 'poppins', sans-serif;
+    right:15%;
+}
+#fot-2{
+    width: 30%;
+}
+#fot-2  ul{
+    list-style: none;
+    display: flex;
+
+}
+#fot-2  ul li{
+    position: relative;
+    right:60%;
+    padding-left:3%;
+
 }
