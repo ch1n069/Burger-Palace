@@ -5,6 +5,10 @@ body{
     background: white;
     overflow-x: hidden;
     }
+    *{
+        margin: 0;
+        padding:0;
+    }
 /* .one{
     margin:auto;
     width:100%;
@@ -14,6 +18,7 @@ body{
 .one{
     width: 100%;
     background: linear-gradient(115deg, #fff 0%,#fff 50%, #f6b400 50%,#f6b400 100% );
+    margin: 0;
 
 }
 
@@ -25,8 +30,14 @@ body{
 }
 .logo1{
     float: right;
+    margin-top:20%;
 }
 
+.logo2{
+    float: right;
+    margin-top:15%;
+
+}
 .home{
     border-bottom: 5px solid rgb(206, 21, 30);
     /* border-width: 30%; */
@@ -333,8 +344,8 @@ section{
     margin-left: 2%;
 }
 .navbar-2  h2{
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-left: 2%;
+    margin-top: 10%;
 
 }
 .email-box{
