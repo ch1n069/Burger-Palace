@@ -14,6 +14,6 @@ This is a simple website about burgers . It incorparates the app ui/uix design .
 * Enjoy 
 
 ## License 
-copyright (c) 2022 
+copyright (c) 2022 [Click to view license](LICENSE) 
 
 
