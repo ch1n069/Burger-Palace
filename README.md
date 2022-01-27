@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
@@ -43,3 +44,24 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
+=======
+# Burger palace 
+
+#### version v1.0
+
+### By bruno gatiba 
+
+## Description  
+This is a simple website about burgers . It incorparates the app ui/uix design .
+
+## Setup/Installation instructions 
+* You can use any browser to render the site .
+
+* click on the live link provided in the about section 
+* Enjoy 
+
+## License 
+copyright (c) 2022 [Click to view license](LICENSE) 
+
+
+>>>>>>> master
