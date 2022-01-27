@@ -29,8 +29,8 @@ body{
 
 }
 .logo1{
-    float: right;
-    margin-top:20%;
+    float:right;
+    margin-top: 20%;
 }
 
 .logo2{
@@ -48,7 +48,6 @@ body{
     background-color: #f7fdf6;
 } */
 .navbar ul{
-    display:block;
     cursor: pointer;
     text-align: center;
     /* padding:20px 160px; */
@@ -60,7 +59,6 @@ body{
 .navbar ul li {
     display: inline-block;
     font-size: 20px;
-    list-style: none;
     margin-bottom: 20px ;
     color:black;
     font-weight:300      ;
@@ -284,7 +282,7 @@ section{
     position: relative;
     bottom:3%;
     right:20%;
-
+git 
 }
 .discover{
     width:100%;
