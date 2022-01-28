@@ -5,7 +5,7 @@
 ### By bruno gatiba 
 
 ## Description  
-This is a simple website about burgers . It incorparates the app ui/uix design.
+* This is a simple website about burgers . It incorparates the app ui/uix design.
 
 ## Setup/Installation instructions 
 * You can use any browser to render the site .
